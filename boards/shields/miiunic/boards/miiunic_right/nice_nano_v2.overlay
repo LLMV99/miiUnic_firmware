@@ -39,19 +39,19 @@
 
 // devices on i2c0
 
-&i2c0 {
-    input_device_right0: input_device_right0@2a {
-        status = "okay";
-        compatible = "cirque,pinnacle";
-        reg = <0x2a>;
-        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        sleep;
-        //no-secondary-tap;
-        //no-taps;
-        x-invert;
-        sensitivity = "2x";
-    };
-};
+//&i2c0 {
+//    input_device_right0: input_device_right0@2a {
+//        status = "okay";
+//        compatible = "cirque,pinnacle";
+//        reg = <0x2a>;
+//        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+//        sleep;
+//        //no-secondary-tap;
+//        //no-taps;
+//        x-invert;
+//        sensitivity = "2x";
+//    };
+//};
 
 &i2c0 {
     oled: ssd1306@3c {
@@ -59,7 +59,6 @@
         reg = <0x3c>;
         width = <128>;
         height = <32>;
-
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
