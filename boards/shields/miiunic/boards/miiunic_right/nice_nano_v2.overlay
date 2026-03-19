@@ -46,8 +46,9 @@
         reg = <0x2a>;
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
         sleep;
-        no-secondary-tap;
-        no-taps;
-        sensitivity = "2x";
+        //no-secondary-tap;
+        //no-taps;
+        x-invert;
+        sensitivity = "2.5x";
     };
 };
