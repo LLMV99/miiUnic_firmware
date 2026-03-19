@@ -28,16 +28,6 @@ config ZMK_POINTING
 
 endif
 
-# ---------------------
-# Kconfig for shield "miiunic_left" with board "nice_nano_v2"
-# ---------------------
-if BOARD_NICE_NANO_V2 && SHIELD_MIIUNIC_LEFT
-
-config SPI
-    default y
-
-endif
-
 if SHIELD_MIIUNIC_DONGLE
 
 # Name must be less than 16 characters long!
@@ -65,6 +55,16 @@ config BT_MAX_PAIRED
 endif
 
 # ---------------------
+# Kconfig for shield "miiunic_left" with board "nice_nano_v2"
+# ---------------------
+if BOARD_NICE_NANO_V2 && SHIELD_MIIUNIC_LEFT
+
+config SPI
+    default y
+
+endif
+
+# ---------------------
 # Kconfig for shield "miiunic_right" with board "nice_nano_v2"
 # ---------------------
 if BOARD_NICE_NANO_V2 && SHIELD_MIIUNIC_RIGHT
@@ -88,7 +88,7 @@ endif # ZMK_DISPLAY
 if LVGL
 
 config LV_Z_VDB_SIZE
-    default 32
+    default 64
 
 config LV_DPI_DEF
     default 148
