@@ -24,16 +24,6 @@ config BT_MAX_PAIRED
 
 endif
 
-// if SHIELD_MIIUNIC_LEFT || SHIELD_MIIUNIC_RIGHT
-
-// config ZMK_SPLIT
-//    default y
-
-// config ZMK_POINTING
-//    default y
-
-endif
-
 # ---------------------
 # Kconfig for shield "miiunic_left" with board "nice_nano_v2"
 # ---------------------
