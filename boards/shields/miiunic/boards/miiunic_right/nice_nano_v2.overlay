@@ -49,6 +49,6 @@
         //no-secondary-tap;
         //no-taps;
         x-invert;
-        sensitivity = "2x";
+        sensitivity = "3x";
     };
 };
