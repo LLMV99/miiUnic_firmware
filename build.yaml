@@ -21,19 +21,20 @@
 include:
 
   - board: nice_nano_v2
-    shield: miiunici2c_left
+    shield: miiunic_right
+
+  - board: nice_nano_v2
+    shield: miiunic_left nice_view
 
 ## To build with ZMK Studio support, uncomment the following block
 ## by removing the leading '#' from each line.
 
 #  - board: nice_nano_v2
-#    shield: miiunici2c_left
+#    shield: miiunic_left nice_view
 #    snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
-#    artifact-name: miiunici2c_left_with_studio
+#    artifact-name: miiunic_left_with_studio
 
-  - board: nice_nano_v2
-    shield: miiunici2c_right
 
   - board: nice_nano_v2
     shield: settings_reset
