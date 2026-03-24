@@ -20,10 +20,10 @@
 ---
 include:
 
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: miiunic_right
 
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: miiunic_left nice_view
 
 ## To build with ZMK Studio support, uncomment the following block
@@ -36,5 +36,5 @@ include:
 #    artifact-name: miiunic_left_with_studio
 
 
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: settings_reset
