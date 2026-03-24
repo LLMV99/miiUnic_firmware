@@ -20,7 +20,7 @@
         };
 
         Num_layer {
-            display-name = "Num";
+            display-name = "Numers";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
@@ -29,7 +29,7 @@
             >;
         };
 
-        Symb-Arrows {
+        Symbols {
             display-name = "Sym-Arrows";
             bindings = <
 &trans  &trans  &kp EXCL  &trans  &kp HASH  &kp DOLLAR                  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
