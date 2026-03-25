@@ -3,6 +3,3 @@ config SHIELD_MIIUNIC_LEFT
   
 config SHIELD_MIIUNIC_RIGHT
     def_bool $(shields_list_contains,miiunic_right)
-
-config SHIELD_MIIUNIC_DONGLE
-    def_bool $(shields_list_contains,miiunic_dongle)
